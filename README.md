@@ -1,1 +1,1 @@
-My Hse Subjects
+My HSE Subjects
