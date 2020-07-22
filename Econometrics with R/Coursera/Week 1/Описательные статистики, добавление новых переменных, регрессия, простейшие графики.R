@@ -17,6 +17,7 @@ nrow(d)  # число строк
 str(d)  # структура (похоже на glimpse)
 
 # среднее арифметическое
+mean(d$speed)
 
 # создадим новую переменные и поместим их все в табличку d2
 d2 <- mutate(d, speed = 1.61 * speed, dist = 0.3 * dist, ratio = dist/speed)
