@@ -16,8 +16,11 @@ FROM	pg_stat_activity
 WHERE	pg_stat_activity.datname = '<database_name>';
 3.3. Third, execute the DROP DATABASE statement:
 -- DROP DATABASE database_name;
----------------------------------------------------------------------------------------------------------------------
-4. Switch databases in PostgreSQL
---postgres=# \c <dbname>> or
---postgres=# \connect <dbname>>
 ----------------------------------------------------------------------------------------------------------------------
+4. Create DATABASE
+-- CREATE DATABASE dbname;
+----------------------------------------------------------------------------------------------------------------------
+5. Switch databases in PostgreSQL
+--postgres=# \c dbname or
+--postgres=# \connect dbname
+-----------------------------------------------------------------------------------------------------------------------
