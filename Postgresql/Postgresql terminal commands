@@ -1,0 +1,36 @@
+----------------------------------------------------------------------------------------------------------------------
+1. Алгоритмы установка PostgreSQL через Homebrew
+## Homebrew — утилита командной строки в macOS и Linux, которая позволяет устанавливать пакеты и приложения.
+##Install Homebrew
+-- /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   1.1 Install postgres
+   --brew install postgresql
+   1.2 Run PostgreSQL
+   --brew services start postgresql
+-----------------------------------------------------------------------------------------------------------------------
+2. Configure the Postgres Database Server
+## We are going to create a root user that will have administrator privileges to the database server.(We are now
+"Database administrator")
+   2.1. Logging into Postgres Database Server
+   --psql postgres      ### psql is a terminal-based front-end to PostgreSQL. It enables you to type in queries
+   interactively, issue them to PostgreSQL, and see the query results. (Now we ready execute PostgreSQL commands)
+   2.2. CREATE ROLE — создать роль в базе данных
+   -- CREATE ROLE Mirza WITH LOGIN PASSWORD 'dbmsn1!' VALID UNTIL '2022-01-01';
+   2.3. Изменения роли с правом создания базы данных
+   -- ALTER ROLE Mirza CREATEDB;
+   ## Теперь входим в систему с учетными данными нового пользователя. Во-первых, нам нужно выйти из текущего сеанса,
+    а затем повторно подключиться с учетными данными нового пользователя.
+    2.4. Quit the current session
+    -- \q
+    2.5. Logg in PostgreSQL Database again
+    --psql postgres
+    2.6. Entering with new user's
+    --psql postgres -U Mirza    ## (Mirza тут 'newuser')
+-----------------------------------------------------------------------------------------------------------------------
+3. Installing PGAdmin(client)(dbms) to navigate Postgres Database server
+##  Host name/address:   127.0.0.1
+##  Port:                5432
+##  Maintaince database: postgres
+##  Username(Role):      mirza
+##  Password(Role):      ******
+
