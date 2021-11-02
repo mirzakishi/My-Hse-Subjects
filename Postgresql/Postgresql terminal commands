@@ -33,4 +33,7 @@
 ##  Maintaince database: postgres
 ##  Username(Role):      mirza
 ##  Password(Role):      ******
+------------------------------------------------------------------------------------------------------------------------
+4. Stop postgres from running.
+-- brew services stop postgresql
 
