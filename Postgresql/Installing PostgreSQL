@@ -36,4 +36,14 @@
 ------------------------------------------------------------------------------------------------------------------------
 4. Stop postgres from running.
 -- brew services stop postgresql
-
+------------------------------------------------------------------------------------------------------------------------
+5. Completely uninstalling a Homebrew installation PostgreSQL
+-- brew uninstall postgres
+-- rm -rf /usr/local/var/postgres
+-- rm /usr/local/var/log/postgres.log
+-- rm -f ~/.psqlrc ~/.psql_history
+## Then check if still remains
+-- brew list --formula | grep -e postgres -e psql
+## or search entire system for file name match
+-- sudo find / -name "*postgres*" -o -name "*psql*"
+------------------------------------------------------------------------------------------------------------------------
