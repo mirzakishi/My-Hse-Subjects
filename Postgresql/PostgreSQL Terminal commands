@@ -24,3 +24,5 @@ WHERE	pg_stat_activity.datname = '<database_name>';
 --postgres=# \c dbname or
 --postgres=# \connect dbname
 -----------------------------------------------------------------------------------------------------------------------
+6. Путь к папке PostgreSQl
+-- /usr/local/var/postgres/
