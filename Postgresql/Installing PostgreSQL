@@ -14,8 +14,8 @@
    2.1. Logging into Postgres Database Server
    --psql postgres      ### psql is a terminal-based front-end to PostgreSQL. It enables you to type in queries
    interactively, issue them to PostgreSQL, and see the query results. (Now we ready execute PostgreSQL commands)
-   2.2. CREATE ROLE — создать роль в базе данных
-   -- CREATE ROLE Mirza WITH LOGIN PASSWORD 'dbmsn1!' VALID UNTIL '2022-01-01';
+   2.2. CREATE ROLE (или USER)— создать роль в базе данных
+   -- CREATE ROLE postgres  LOGIN SUPERUSER CREATEROLE CREATEDB REPLICATION BYPASSRLS PASSWORD 'password';
    2.3. Изменения роли с правом создания базы данных
    -- ALTER ROLE Mirza CREATEDB;
    ## Теперь входим в систему с учетными данными нового пользователя. Во-первых, нам нужно выйти из текущего сеанса,
