@@ -6,7 +6,7 @@
    1.1 Install postgres
    --brew install postgresql
    1.2 Run PostgreSQL
-   --brew services start postgresql
+   --brew services start postgresql  ( или --psql postgres)
 -----------------------------------------------------------------------------------------------------------------------
 2. Configure the Postgres Database Server
 ## We are going to create a root user that will have administrator privileges to the database server.(We are now
