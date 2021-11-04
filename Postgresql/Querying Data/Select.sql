@@ -14,5 +14,5 @@ from
     customer;
 
 -- The following example uses the SELECT statement with an expression. It omits the FROM clause:
-select 5^2
+select 5^3
 --------------------------------------------------------------------------------------------------------------
