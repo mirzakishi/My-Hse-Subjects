@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------------------------------
--- The following statement uses the LEFT JOIN clause to join film table with the inventorytable:
+-- The following statement uses the LEFT JOIN clause to join film table with the inventory table:
 SELECT
 	film.film_id,
 	title,
