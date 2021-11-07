@@ -28,4 +28,5 @@ FROM
 INNER JOIN employee m
     ON m.employee_id = e.manager_id
 ORDER BY manager;
+-- END
 -----------------------------------------------------------------------------------------------------------------------
