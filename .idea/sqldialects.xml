@@ -9,6 +9,7 @@
     <file url="file://$PROJECT_DIR$/Postgresql/Filtering Data/LIMIT.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/Postgresql/Filtering Data/WHERE.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/Postgresql/Grouping Data/GROUP BY.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Postgresql/Grouping Data/HAVING.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/Postgresql/Joining Multiple Tables/Cross Join.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/Postgresql/Joining Multiple Tables/FULL OUTER JOIN.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/Postgresql/Joining Multiple Tables/INNER join.sql" dialect="GenericSQL" />
