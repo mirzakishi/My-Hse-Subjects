@@ -22,6 +22,7 @@
     <file url="file://$PROJECT_DIR$/Postgresql/Querying Data/ORDER BY.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/Postgresql/Querying Data/SELECT DISTINCT.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/Postgresql/Querying Data/Select.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Postgresql/Set Operations/INTERSECT and EXCEPT.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/Postgresql/Set Operations/UNION.sql" dialect="GenericSQL" />
   </component>
 </project>
