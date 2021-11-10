@@ -12,6 +12,7 @@
     <file url="file://$PROJECT_DIR$/Postgresql/Grouping Data/HAVING.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/Postgresql/Grouping sets, Cube, and Rollup/Cube.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/Postgresql/Grouping sets, Cube, and Rollup/Grouping Sets.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Postgresql/Grouping sets, Cube, and Rollup/ROLLUP.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/Postgresql/Joining Multiple Tables/Cross Join.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/Postgresql/Joining Multiple Tables/FULL OUTER JOIN.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/Postgresql/Joining Multiple Tables/INNER join.sql" dialect="GenericSQL" />
