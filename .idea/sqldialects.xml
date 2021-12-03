@@ -23,6 +23,7 @@
     <file url="file://$PROJECT_DIR$/Postgresql/Joining Multiple Tables/NATURAL JOIN.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/Postgresql/Joining Multiple Tables/Self-Join.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/Postgresql/Joining Multiple Tables/Table Aliases.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Postgresql/Modifying Data/Dalete.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/Postgresql/Modifying Data/Insert.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/Postgresql/Modifying Data/UPDATE Join.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/Postgresql/Modifying Data/Update.sql" dialect="GenericSQL" />
